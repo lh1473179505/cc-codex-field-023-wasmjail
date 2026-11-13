@@ -1,0 +1,12 @@
+{
+  "fuel": 10000,
+  "max_pages": 2,
+  "max_stack": 256,
+  "allow_grow": false,
+  "allow_indirect": true,
+  "allow_start_export": false,
+  "host_root": ".",
+  "preopens": [
+    {"fd": 3, "guest": "/data", "host": "fixtures/sandbox/data"}
+  ]
+}

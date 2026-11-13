@@ -1,0 +1,9 @@
+func other (result i32)
+  i32.const 1
+end
+func run (result i32)
+  i32.const 9
+  call_indirect (result i32)
+end
+table other
+export run run

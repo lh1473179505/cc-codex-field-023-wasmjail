@@ -1,0 +1,12 @@
+memory 1
+func boot
+  i32.const 0
+  i32.const 7
+  i32.store
+end
+func run (result i32)
+  i32.const 0
+  i32.load
+end
+start boot
+export run run

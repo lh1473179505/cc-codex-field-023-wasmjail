@@ -1,0 +1,8 @@
+func boot
+  unreachable
+end
+func run (result i32)
+  i32.const 42
+end
+start boot
+export run run

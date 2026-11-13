@@ -1,0 +1,8 @@
+func run (result i32)
+  loop
+    i32.const 1
+    br_if 0
+  end
+  i32.const 0
+end
+export run run
